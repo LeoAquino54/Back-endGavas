@@ -71,7 +71,6 @@ Route::get("uf/{id}", [UfController::class,"show"]);
 Route::put("uf/{id}", [UfController::class,"update"]);
 Route::delete("uf/{id}", [UFController::class,"destroy"]);
 
-
 Route::get("usuarios", [UsuarioController::class,"index"]);
 Route::post("usuario", [UsuarioController::class,"store"]);
 Route::get("usuario/{id}", [UsuarioController::class,"show"]);
